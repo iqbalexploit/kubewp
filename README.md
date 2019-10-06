@@ -29,11 +29,11 @@ Server:
   - wordpress container : wordpress:latest 
 
 # Provisioning script
-   file : provision-deployment.sh
-   Running provision script  :
-   $ ./provision-deployment.sh
-   CLean up deployment :
-   $ ./provision-deployment delete
+file : provision-deployment.sh
+- Running provision script :
+$./provision-deployment.sh
+- Clean up deployment :
+$./provision-deployment delete
 
 # Kubernetes manifest of deployed app consist of :
    - kustomization.yaml
